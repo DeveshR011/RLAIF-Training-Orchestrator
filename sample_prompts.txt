@@ -1,0 +1,33 @@
+# Diverse prompts for RLAIF self-play loop
+# One prompt per line. Lines starting with # are ignored.
+# Use with: python loop.py --prompts sample_prompts.txt --iterations 3
+
+# Comparison (easy)
+What is the difference between supervised and unsupervised learning?
+
+# Technical explanation (medium)
+How does backpropagation work in neural networks?
+
+# Debugging (medium)
+Why does my PyTorch model overfit on small datasets?
+
+# Tradeoff (hard)
+What are the tradeoffs between RLHF and DPO for alignment?
+
+# Step-by-step (medium)
+How do I implement a custom attention mask in HuggingFace?
+
+# Comparison (medium)
+Explain the difference between BERT and GPT architectures
+
+# Technical explanation (hard)
+How does gradient accumulation reduce memory usage during training?
+
+# Debugging (hard)
+What causes vanishing gradients and how do residual connections fix it?
+
+# Tradeoff (medium)
+How do I choose between LoRA and full fine-tuning for my use case?
+
+# Technical explanation (medium)
+Explain how tokenization affects model performance on rare words
