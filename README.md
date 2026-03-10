@@ -515,9 +515,6 @@ RLAIF/
 │   ├── reward.py        # Phase 4: tanh-normalized reward signal
 │   ├── pipeline.py      # Orchestrator: all phases + GATE_1–9 logic
 │   └── validator.py     # Post-hoc triplet consistency checker
-├── data/
-│   ├── training_data.jsonl     # DPO-ready output (auto-created, append-only)
-│   └── .pipeline_state.json   # Iteration counter + history
 ├── config.yaml          # Models, constitution, reward weights
 ├── run.py               # CLI: single prompt
 ├── loop.py              # Self-play batch loop
